@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alignmentMode="alignBounds"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:padding="16dp"
+    android:useDefaultMargins="true">
+
+    <!-- Celda 1: Verde (Usuarios) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="#8BC34A"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@android:drawable/ic_menu_myplaces"
+            android:tint="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Celda 2: Azul (Carrito de compras) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="#1976D2"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@android:drawable/ic_menu_slideshow"
+            android:tint="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Celda 3: Naranja (Alcancía / Finanzas) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="#FB8C00"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@android:drawable/ic_menu_manage"
+            android:tint="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Celda 4: Rojo (Calendario) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="#E53935"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@android:drawable/ic_menu_today"
+            android:tint="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Celda 5: Morado (Notas / Lista) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@android:drawable/ic_menu_agenda"
+            android:tint="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Celda 6: Gris (Herramienta / Configuración) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="#9E9E9E"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@android:drawable/ic_menu_manage"
+            android:tint="#FFFFFF" />
+    </LinearLayout>
+
+</GridLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_buttons">Boutons</string>
+    <string name="raised_button_title">Bouton en relief</string>
+    <string name="flat_button_title">Bouton plat</string>
+    <string name="normal_btn">NORMAL</string>
+    <string name="pressed_btn">APPUYÉ</string>
+    <string name="disabled_btn">DÉSACTIVÉ</string>
+    <string name="text_header_reply">Réponse Reçue</string>
+    <string name="text_reply">Ceci est ma réponse</string>
+    <string name="hint_message">Entrez votre message ici</string>
+    <string name="btn_send">ENVOYER</string>
+</resources>

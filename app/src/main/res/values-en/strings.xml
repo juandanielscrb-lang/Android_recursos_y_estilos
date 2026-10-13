@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_buttons">Buttons</string>
+    <string name="raised_button_title">Raised Button</string>
+    <string name="flat_button_title">Flat Button</string>
+    <string name="normal_btn">NORMAL</string>
+    <string name="pressed_btn">PRESSED</string>
+    <string name="disabled_btn">DISABLED</string>
+    <string name="text_header_reply">Reply Received</string>
+    <string name="text_reply">This is my reply</string>
+    <string name="hint_message">Enter Your Message Here</string>
+    <string name="btn_send">SEND</string>
+    <string name="cardview_app_title">CardView App</string>
+    <string name="settings_action">SETTINGS</string>
+    <string name="card_call">Call</string>
+    <string name="card_chat">Chat</string>
+    <string name="card_comment">Comment</string>
+    <string name="card_duo">Duo</string>
+</resources>
